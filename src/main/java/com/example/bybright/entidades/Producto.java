@@ -22,6 +22,7 @@ public class Producto {
 
     }
 
+
     public Producto(Integer id, String nombre, String descripcion, Integer cantidad, Double precioUnitario, String clasifiicacion, String marca, String presentacion, Double peso, Boolean estado, String proveedor, Double volumen, String fechaIngreso, String fechaVencimiento, Boolean aplicaDescuento) {
         this.id = id;
         this.nombre = nombre;
@@ -159,4 +160,6 @@ public class Producto {
     public void setAplicaDescuento(Boolean aplicaDescuento) {
         this.aplicaDescuento = aplicaDescuento;
     }
+
+    
 }
